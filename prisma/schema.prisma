@@ -1,0 +1,48 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum LeadStatus {
+  NEW
+  NEEDS_FOLLOW_UP
+  WON
+  LOST
+}
+
+enum MessageRole {
+  user
+  assistant
+}
+
+model Lead {
+  id                String      @id @default(cuid())
+  companyName       String?
+  personName        String?
+  email             String?
+  phone             String?
+  location          String?
+  productInterest   String?
+  status            LeadStatus  @default(NEW)
+  lastIntent        String?
+  missingFieldsJson String?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  messages          Message[]
+}
+
+model Message {
+  id            String      @id @default(cuid())
+  leadId        String
+  role          MessageRole
+  content       String
+  notesForHuman String?
+  createdAt     DateTime    @default(now())
+  lead          Lead        @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@index([leadId, createdAt])
+}
