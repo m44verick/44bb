@@ -1,0 +1,14 @@
+[
+  {"name":"Classic Polyester Button","material":"Polyester","benefits":"Ekonomik, dayanıklı, renk tutarlılığı","MOQ":"5.000 adet","lead_time_days":12,"customization":"Logo lazer, renk özel üretim","typical_use_cases":"Gömlek, çocuk giyim"},
+  {"name":"Premium Metal Snap","material":"Zamak / metal alaşım","benefits":"Lüks görünüm, yüksek mukavemet","MOQ":"3.000 adet","lead_time_days":18,"customization":"Antik, parlak, mat kaplama seçenekleri","typical_use_cases":"Denim, ceket"},
+  {"name":"Corozo Natural Button","material":"Corozo","benefits":"Doğal, çevre dostu, premium","MOQ":"2.000 adet","lead_time_days":20,"customization":"Doğal ton boya, gravür","typical_use_cases":"Takım elbise, outerwear"},
+  {"name":"Mother of Pearl Luxury","material":"Sedef","benefits":"Parlak premium yüzey, yüksek algı","MOQ":"1.000 adet","lead_time_days":22,"customization":"Ebat ve delik tipi özelleştirme","typical_use_cases":"Kadın bluz, premium gömlek"},
+  {"name":"Recycled PET Button","material":"Geri dönüştürülmüş PET","benefits":"Sürdürülebilir, hafif, stabil","MOQ":"6.000 adet","lead_time_days":14,"customization":"Renk kartelası, logo baskı","typical_use_cases":"Basic t-shirt, uniforma"},
+  {"name":"Urea Formal Button","material":"Üre","benefits":"Sertlik ve dayanım, klasik görünüm","MOQ":"4.000 adet","lead_time_days":15,"customization":"Parlak/mat finisaj","typical_use_cases":"Gömlek, triko"},
+  {"name":"Metal Jeans Rivet Set","material":"Pirinç + kaplama","benefits":"Yüksek tutuş, yıkamaya dayanım","MOQ":"8.000 set","lead_time_days":16,"customization":"Marka kabartma","typical_use_cases":"Jean, workwear"},
+  {"name":"Bio-Resin Fashion Button","material":"Bio bazlı reçine","benefits":"Düşük karbon izi, modern dokunuş","MOQ":"3.500 adet","lead_time_days":17,"customization":"Özel form kalıp","typical_use_cases":"Moda koleksiyonları"},
+  {"name":"Horn-Look Composite Button","material":"Kompozit","benefits":"Boynuz görünümü, uygun maliyet","MOQ":"2.500 adet","lead_time_days":13,"customization":"Desen varyasyonu","typical_use_cases":"Ceket, kaban"},
+  {"name":"Nylon Utility Button","material":"Naylon","benefits":"Yüksek darbe dayanımı, hafif","MOQ":"7.000 adet","lead_time_days":11,"customization":"Renk ve yüzey dokusu","typical_use_cases":"Outdoor, spor giyim"},
+  {"name":"Shank Metal Dome","material":"Paslanmaz çelik","benefits":"Sağlam arka ayak yapısı, şık görünüm","MOQ":"4.000 adet","lead_time_days":19,"customization":"Logo damga","typical_use_cases":"Palto, mont"},
+  {"name":"Recycled Cotton Button","material":"Geri dönüştürülmüş pamuk kompozit","benefits":"Doğal his, sürdürülebilir kimlik","MOQ":"3.000 adet","lead_time_days":15,"customization":"Özel renk karışımı","typical_use_cases":"Casual gömlek, çocuk giyim"}
+]
